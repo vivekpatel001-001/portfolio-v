@@ -2,7 +2,7 @@ import React from "react";
 
 function Project() {
   return (
-    <section className="bg-white py-12 sm:py-14 md:py-20">
+    <section className="bg-[#0a0f1a] py-12 sm:py-14 md:py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-12">
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-14">
 
@@ -17,11 +17,11 @@ function Project() {
 
           {/* Content Section */}
           <div className="w-full md:w-1/2 text-center md:text-left">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-cyan-400  mb-4">
               Modern Vue Furniture E-Shop
             </h2>
 
-            <p className="text-gray-600 text-base sm:text-lg leading-relaxed mb-6">
+            <p className="text-white  text-base sm:text-lg leading-relaxed mb-6">
               This is a fully functional demo e-commerce website for a furniture
               store built using the{" "}
               <span className="font-semibold">StoreHippo platform</span> with a
@@ -36,12 +36,12 @@ function Project() {
                 href="https://demo-vue-furniture.storehippo.com/en/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition w-full sm:w-auto text-center"
+                className="inline-block text-cyan-4000 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition w-full sm:w-auto text-center"
               >
                 View Live Project →
               </a>
-              
-              <button className="ml-4 inline-block bg-gray-200 text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-gray-300 transition w-full sm:w-auto">
+
+              <button className="ml-4 inline-block bg-white text-yellow px-6 py-3 rounded-full font-semibold hover:bg-yellow-500 hover:text-white transition w-full sm:w-auto">
               Project Details
               </button>
             </div>

@@ -38,7 +38,7 @@ function Herosection() {
             Hi, I’m Vivek 👋
           </h1>
 
-          <h2 className="text-2xl md:text-4xl font-semibold text-yellow-400 mb-5">
+          <h2 className="text-2xl md:text-4xl font-semibold text-cyan-400 mb-5">
             I am a <span>{text}</span>
             <Cursor cursorStyle="|" />
           </h2>
@@ -52,11 +52,11 @@ function Herosection() {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start">
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-black px-6 py-3 rounded-lg transition w-full sm:w-auto">
+            <button className="bg-cyan-400 hover:bg-yellow-600 text-black px-6 py-3 rounded-lg transition w-full sm:w-auto">
               Hire Me
             </button>
 
-            <button className="border border-white/30 hover:border-yellow-400 text-white px-6 py-3 rounded-lg transition w-full sm:w-auto">
+            <button className="border border-white/30 hover:border-cyan-400 text-white px-6 py-3 rounded-lg transition w-full sm:w-auto">
               Contact Me
             </button>
           </div>
@@ -88,7 +88,7 @@ function Herosection() {
                 href={href}
                 target={target}
                 aria-label={label}
-                className="p-3 rounded-full border border-white/20 hover:border-yellow-400 hover:scale-110 transition"
+                className="p-3 rounded-full border border-white/20 hover:border-cyan-400 hover:scale-110 transition"
               >
                 <Icon size={20} className="text-white" />
               </a>

@@ -88,3 +88,11 @@
     right: 120%;
   }
 }
+
+.gradient-text {
+  background: linear-gradient(90deg, #3b82f6, #22d3ee);
+  -webkit-text-fill-color: transparent;
+}
+
+
+

@@ -5,7 +5,7 @@ function Navbaar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <section className="shadow-md bg-gray-950 sticky top-0 z-50">
+    <section className="shadow-md bg-gray-950 sticky top-0 z-50   border-b border-cyan-500">
       <div className="container mx-auto flex justify-between items-center px-5 py-4">
         
         {/* Logo */}
@@ -13,13 +13,12 @@ function Navbaar() {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-10 list-none">
-          <li className="text-xl text-hover text-white"><Link to="/">Home</Link></li>
+          <li className="text-xl text-hover text-cyan-500"><Link to="/">Home</Link></li>
           <li className="text-xl text-hover text-white"><Link to="/">Projects</Link></li>
           <li className="text-xl text-hover text-white"><Link to="/">About</Link></li>
           <li className="text-xl text-hover text-white"><Link to="/">Services</Link></li>
           <li className="text-xl text-hover text-white"><Link to="/">Contact</Link></li>
         </ul>
-
         {/* Mobile Button */}
         <button
           className="md:hidden text-3xl"
