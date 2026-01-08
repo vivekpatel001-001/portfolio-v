@@ -1,0 +1,24 @@
+import React from 'react'
+
+function Aboutme() {
+    return (
+        <>
+            <div className='bg-gray-900'>
+                <section className="py-20  text-white">
+                    <div className="container mx-auto px-6">
+                        <h2 className="text-4xl font-bold mb-8 text-center" > // About Me</h2>
+                        <div className="max-w-4xl mx-auto text-lg leading-relaxed">
+                            <p className="mb-6 text-6xl font-bold text-yellow-400">
+                                Passionate About Innovation          </p>
+                            <p className="mb-6 text-white  text-2xl font-bold">
+                                I am an enthusiastic full-stack developer with a strong foundation in modern web technologies. I love solving problems and crafting intuitive, 
+                                user-friendly digital experiences while constantly improving my skills.                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </>
+    )
+}
+
+export default Aboutme  

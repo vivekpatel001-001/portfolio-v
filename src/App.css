@@ -1,0 +1,98 @@
+* {
+  font-family: monospace;
+}
+
+
+/* hover underline text */
+.text-hover:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.line{
+  width: 100%;
+  height: 2px;
+  background-color: #e4d4d4;
+  margin: 20px 0;
+}
+
+/* button */
+.btn-11 {
+  position: relative;
+  padding: 12px 30px;
+  background: transparent;
+  border: 2px solid #e4d4d4;
+  color: #3498db;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* circles */
+.btn-11::before,
+.btn-11::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #516777;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+/* left circle */
+.btn-11::before {
+  left: -20px;
+}
+
+/* right circle */
+.btn-11::after {
+  right: -20px;
+}
+
+/* hover text color */
+.btn-11:hover {
+  color: #ffffff;
+}
+
+/* animations */
+.btn-11:hover::before {
+  animation: criss-cross-left 0.8s both alternate;
+}
+
+.btn-11:hover::after {
+  animation: criss-cross-right 0.8s both alternate;
+}
+
+/* keyframes */
+@keyframes criss-cross-left {
+  0% {
+    left: -20px;
+  }
+  50% {
+    left: 50%;
+  }
+  100% {
+    left: 120%;
+  }
+}
+
+@keyframes criss-cross-right {
+  0% {
+    right: -20px;
+  }
+  50% {
+    right: 50%;
+  }
+  100% {
+    right: 120%;
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #3b82f6, #22d3ee);
+  -webkit-text-fill-color: transparent;
+}
+
+
+
