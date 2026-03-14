@@ -93,6 +93,11 @@
   background: linear-gradient(90deg, #3b82f6, #22d3ee);
   -webkit-text-fill-color: transparent;
 }
-
-
-
+.groupa{
+  color: #FFF363 ;
+  background-color: #1B190F;
+}
+.groupb{
+  color: #1B190F ;
+  background-color: #FFF363;
+}
