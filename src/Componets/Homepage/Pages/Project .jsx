@@ -3,7 +3,11 @@ import React from "react";
 function Project() {
   return (
     <section className="bg-[#0a0f1a] py-12 sm:py-14 md:py-20">
+<<<<<<< HEAD
       <div className="container mx-auto px-4 sm:px-6 lg:px-12 ">
+=======
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12">
+>>>>>>> e77573375fd3298e967aa1ccc43892320df98975
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-14">
 
           {/* Image Section */}

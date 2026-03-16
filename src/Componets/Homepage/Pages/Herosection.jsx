@@ -33,7 +33,11 @@ function Herosection() {
       <div className="relative container mx-auto px-6 py-20 flex flex-col-reverse md:flex-row items-center gap-14">
 
         {/* LEFT : Text Content */}
+<<<<<<< HEAD
         <div className="text-[#fedc36] -full md:w-1/2 text-center md:text-left">
+=======
+        <div className="text-white w-full md:w-1/2 text-center md:text-left">
+>>>>>>> e77573375fd3298e967aa1ccc43892320df98975
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Hi, I’m Vivek 👋
           </h1>

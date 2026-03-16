@@ -5,7 +5,11 @@ function Navbaar() {
   const [open, setOpen] = useState(false);
 
   return (
+<<<<<<< HEAD
     <section className="shadow-md bg-gray-950 sticky top-0 z-50   border-b border-yellow-500">
+=======
+    <section className="shadow-md bg-gray-950 sticky top-0 z-50   border-b border-cyan-500">
+>>>>>>> e77573375fd3298e967aa1ccc43892320df98975
       <div className="container mx-auto flex justify-between items-center px-5 py-4">
         
         {/* Logo */}
@@ -13,11 +17,19 @@ function Navbaar() {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-10 list-none">
+<<<<<<< HEAD
           <li className="text-xl text-hover text-yellow-500"><Link to="/">Home</Link></li>
           <li className="text-xl text-hover text-white"><Link to="/">Projects</Link></li>
           <li className="text-xl text-hover text-white"><Link to="/">About</Link></li>
           <li className="text-xl text-hover text-white"><Link to="/">Services</Link></li>
           <li className="text-xl text-hover text-white"><Link to="/contact">Contact</Link></li>
+=======
+          <li className="text-xl text-hover text-cyan-500"><Link to="/">Home</Link></li>
+          <li className="text-xl text-hover text-white"><Link to="/">Projects</Link></li>
+          <li className="text-xl text-hover text-white"><Link to="/">About</Link></li>
+          <li className="text-xl text-hover text-white"><Link to="/">Services</Link></li>
+          <li className="text-xl text-hover text-white"><Link to="/">Contact</Link></li>
+>>>>>>> e77573375fd3298e967aa1ccc43892320df98975
         </ul>
         {/* Mobile Button */}
         <button
